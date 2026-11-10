@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+
+# Environment variables and secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+*.log
+logs/
+
+# TypeScript
+*.tsbuildinfo
+
+# Operating system
+.DS_Store
+
+# Editors
+.vscode/
+.idea/
+
+# Prisma AI assistant support files
+api/.agents/
+api/.claude/
+api/.windsurf/
+api/skills-lock.json
