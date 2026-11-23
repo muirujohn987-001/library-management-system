@@ -42,6 +42,7 @@ model Book {
   author         String
   isbn           String   @unique
   publishedYear  Int?
+  totalCopies   Int     @default(1)
   availableCopies Int    @default(1)
 
   genreId        String
